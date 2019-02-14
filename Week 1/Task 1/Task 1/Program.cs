@@ -10,7 +10,7 @@ namespace lab1a
     {
         static public bool Prime(int p)
         {
-            if (p == 1) return false;// hghgh
+            if (p == 1) return false;
 
             for (int i = 2; i < p; i++)
             {
