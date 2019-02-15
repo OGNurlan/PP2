@@ -10,7 +10,7 @@ namespace Task_3
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());// создание переменной n и перевод егов 32 битную систему
             int[] a = new int [n] ;
             for(int i=0; i < n; i++)
             {
@@ -18,7 +18,7 @@ namespace Task_3
             }
             for(int i = 0; i<n; i++)
             {
-                Console.WriteLine(a[i]+" " + a[i]);
+                Console.WriteLine(a[i]+" " + a[i]);// вывод I-Того значения + пробел + I-того значения
             }
         }
     }

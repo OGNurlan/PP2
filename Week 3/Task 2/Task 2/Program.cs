@@ -11,15 +11,15 @@ namespace Part2
     {
         static void Main(string[] args)
         {
-            far FarManager = new far();
-            FarManager.Start(@"C:\Users\Asus\Desktop");
+            far FarManager = new far();// консольный файловый менеджер для windows
+            FarManager.Start(@"C:\Users\Asus\Desktop");//запуск файлового менеджера
         }
     }
     class far
     {
-        public int cursor;
-        public int size;
-        public bool ok;
+        public int cursor;//  создание счетчика для курсора (показывает местоположение строки)  
+        public int size;// 
+        public bool ok;//
         public far()
         {
             cursor = 0;
@@ -158,4 +158,4 @@ namespace Part2
             }
         }
     }
-}
+}   
